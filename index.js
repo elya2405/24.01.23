@@ -76,18 +76,18 @@ else {
 }
 
 // Вывести каким сезоном является "январь"(month)
-let month = "66";
+let month = "май";
 if (month === "декабрь" || month === "январь" || month === "февраль") {
-  console.log("Это зима");
+  console.log(month + " это зима");
 }
 else if (month === "март" || month === "апрель" || month === "май") {
-  console.log("Это весна");
+  console.log(month + " это весна");
 }
 else if (month === "июнь" || month === "июль" || month === "август") {
-  console.log("Это лето");
+  console.log(month + " это лето");
 }
 else if (month === "сентябрь" || month === "октябрь" || month === "ноябрь") {
-  console.log("Это осень");
+  console.log(month + " это осень");
 }
 else {
   console.log(month + "это не месяц")
